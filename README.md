@@ -40,6 +40,11 @@ sudo apt install php libapache2-mod-php php-mysql php-cli php-mbstring php-xml p
 ```bash
 php -v
 ```
+Si tienes más de una versión de php con este comando puedes elegir la que quieras:
+
+```bash
+sudo update-alternatives --config php
+```
 
 ---
 
